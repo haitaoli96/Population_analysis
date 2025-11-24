@@ -13,9 +13,9 @@
 # 0) 你需要先建好环境（一次）
 
 ```bash
-conda create -n gatk_cp -c conda-forge -c bioconda \
+conda create -n SNP -c conda-forge -c bioconda \
   gatk4 bwa-mem2 samtools picard fastp bcftools tabix -y
-conda activate gatk_cp
+conda activate SNP
 ```
 
 ---
